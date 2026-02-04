@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="Horloge"></div>
+    <div id="alarme">
+         <h1>Régler une alarme</h1>
+
+  <label>
+    Temps avant alarme (secondes) :
+    <input type="number" id="temps" min="1">
+  </label>
+
+  <button onclick="setAlarme()">Activer l’alarme</button>
+  <button onclick="stopAlarme()">Stop</button>
+  <p id="messageAlarme" class="hidden"> chercher les enfants </p>
+
+  <audio id="sonAlarme">
+    <source src="07  Coldplay - Viva La Vida.mp3" type="audio/mpeg">
+  </audio>
+ 
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
