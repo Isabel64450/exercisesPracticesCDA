@@ -1,0 +1,13 @@
+#menu 
+ {
+    display: flex;
+    flex-direction: column;
+}
+#menu a {
+  margin-bottom: 8px; 
+}
+
+
+.articles li{
+    margin-bottom: 8px;
+}
