@@ -1,21 +1,39 @@
-#red{
-    background-color: red;
-    padding: 20px;
-    margin: auto;
-    border-radius: 50%;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #222;
 }
-#orange{
-    background-color:orange;
-    padding: 20px;
-    margin: auto;
-    border-radius: 50%;
+
+.feu {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 10px;
+  border: none;
+  opacity: 0.3;
 }
-#green{
-    background-color:green;
-    padding: 20px;
-    margin: auto;
-    border-radius: 50%;
+
+
+#red {
+  background-color: red;
 }
-.hidden{
-    display: none;
+
+#orange {
+  background-color: orange;
+}
+
+#green {
+  background-color: green;
+}
+
+
+.hidden {
+  opacity: 0.3;
+}
+
+.active {
+  opacity: 1;
+  box-shadow: 0 0 20px currentColor;
 }
