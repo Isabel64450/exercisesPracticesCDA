@@ -54,9 +54,11 @@ console.log(produitDesNombres.reduce((total, num) => total * num, 1))
 
 let motUser = prompt("rentrez un mot")
 
+console.log(motUser.split(""))
+
 const voyelles = ['a', 'e', 'i', 'o', 'u', 'y'];
 
-let nombreDeVoyelles = motUser.split().reduce((compte, lettre) => {return voyelles.includes(lettre) ? compte + 1 : compte },0 )
+let nombreDeVoyelles = motUser.split("").reduce((compte, lettre) => {return voyelles.includes(lettre) ? compte + 1 : compte },0 )
 
 alert(`Nombre de voyelles : ${nombreDeVoyelles}`)
 
